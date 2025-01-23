@@ -76,11 +76,11 @@ class _CommandeFormState extends State<CommandeForm> {
           children: [
             TextField(
               controller: bracerieController,
-              decoration: InputDecoration(labelText: 'Nom du client'),
+              decoration: InputDecoration(labelText: 'Nom bracerie'),
             ),
             TextField(
               controller: depotController,
-              decoration: InputDecoration(labelText: 'Article'),
+              decoration: InputDecoration(labelText: 'Nom depot'),
             ),
             TextField(
               controller: quantiteController,
